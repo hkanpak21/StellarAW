@@ -1,0 +1,30 @@
+/**
+ * Configuration settings for the daemon
+ */
+
+export interface Config {
+  port: number;
+  host: string;
+  openAiApiKey: string;
+  debugging: boolean;
+}
+
+// Default configuration
+export const defaultConfig: Config = {
+  port: 8080,
+  host: '127.0.0.1',
+  openAiApiKey: "YOUR_OPENAI_API_KEY_HERE",
+  debugging: true,
+};
+
+/**
+ * Load configuration from environment variables, with fallback to defaults
+ */
+export function loadConfig(): Config {
+  return {
+    port: parseInt(process.env.PORT || defaultConfig.port.toString()),
+    host: process.env.HOST || defaultConfig.host,
+    openAiApiKey: process.env.OPENAI_API_KEY || defaultConfig.openAiApiKey,
+    debugging: process.env.DEBUG === 'true' || defaultConfig.debugging,
+  };
+} 

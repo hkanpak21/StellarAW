@@ -1,0 +1,33 @@
+/**
+ * Simple OpenAI API wrapper
+ */
+
+import { OpenAI } from "openai";
+
+// Load API key from environment variables
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY || "YOUR_OPENAI_API_KEY_HERE";
+
+const openai = new OpenAI({
+  apiKey: OPENAI_API_KEY,
+});
+
+/**
+ * Get a completion from the OpenAI API
+ * Currently using a simple implementation, but could be extended to handle streaming, etc.
+ */
+export async function getCompletion(prompt: string): Promise<string> {
+  try {
+    const completion = await openai.chat.completions.create({
+      model: "gpt-3.5-turbo", // Use the cheapest model as requested
+      messages: [
+        { role: "system", content: "You are a helpful assistant for Stellar wallet users." },
+        { role: "user", content: prompt }
+      ],
+    });
+
+    return completion.choices[0].message.content || "No response generated";
+  } catch (error) {
+    console.error("Error calling OpenAI API:", error);
+    return "Sorry, I'm having trouble connecting to my language model right now.";
+  }
+} 
