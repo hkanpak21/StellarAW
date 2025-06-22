@@ -1,18 +1,18 @@
-# 🌟 Stellar Cüzdan - Modern Freighter Entegrasyonu
+# 🌟 Stellar Wallet - Modern Freighter Integration
 
 ## Project Presentation
 https://www.canva.com/design/DAGrAsSRHIs/NwConDGVZnCTdjZRpQXDMQ/edit?utm_content=DAGrAsSRHIs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ## Project Demo
-https://drive.google.com/file/d/1O0jfb_NI6pjujXK5Oq0pa4kOwGSe3Gp6/view?usp=sharingoverwi
+https://drive.google.com/file/d/1O0jfb_NI6pjujXK5Oq0pa4kOwGSe3Gp6/view?usp=sharing
 
-Modern blockchain teması ile tasarlanmış **Stellar Freighter** cüzdan entegrasyonu React uygulaması. Yıldızlı animasyonlar, neon efektler ve glassmorphism tasarımı ile gelecekçi bir deneyim sunar.
+Modern **Stellar Freighter** wallet integration React application designed with a blockchain theme. Provides a futuristic experience with starry animations, neon effects, and glassmorphism design.
 
 ![Stellar](https://img.shields.io/badge/Stellar-7D00FF?style=for-the-badge&logo=stellar&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
-## 📁 Proje Yapısı
+## 📁 Project Structure
 
 ```
 stellar-wallet-app/
@@ -26,95 +26,95 @@ stellar-wallet-app/
 │   ├── 📦 package.json            # Backend dependencies
 │   └── 📄 tsconfig.json           # TypeScript configuration
 ├── 📁 public/
-│   ├── 🌐 index.html              # Ana HTML dosyası (güncellenmiş)
-│   ├── 🖼️ favicon.ico             # Site ikonu
+│   ├── 🌐 index.html              # Main HTML file (updated)
+│   ├── 🖼️ favicon.ico             # Site icon
 │   ├── 🖼️ logo192.png             # PWA logo (192x192)
 │   ├── 🖼️ logo512.png             # PWA logo (512x512)
 │   ├── 📄 manifest.json           # PWA manifest
-│   └── 🤖 robots.txt              # SEO robots dosyası
+│   └── 🤖 robots.txt              # SEO robots file
 ├── 📁 src/
-│   ├── ⚛️ App.js                  # Ana React bileşeni (Freighter entegrasyonu)
-│   ├── 🎨 App.css                 # Modern blockchain teması CSS
-│   ├── 🎯 index.js                # React giriş noktası
-│   ├── 💅 index.css               # Global CSS stilleri
-│   ├── 🖼️ logo.svg                # React logosu
-│   ├── 🧪 App.test.js             # Birim testler
-│   ├── ⚙️ setupTests.js           # Test kurulumu
-│   └── 📊 reportWebVitals.js      # Performans metrikleri
-├── 📦 package.json                # Proje bağımlılıkları ve scripts
-├── 🔒 package-lock.json           # Bağımlılık kilidi
-├── 📋 README.md                   # Bu dosya
-└── 🙈 .gitignore                  # Git ignore kuralları
+│   ├── ⚛️ App.js                  # Main React component (Freighter integration)
+│   ├── 🎨 App.css                 # Modern blockchain theme CSS
+│   ├── 🎯 index.js                # React entry point
+│   ├── 💅 index.css               # Global CSS styles
+│   ├── 🖼️ logo.svg                # React logo
+│   ├── 🧪 App.test.js             # Unit tests
+│   ├── ⚙️ setupTests.js           # Test setup
+│   └── 📊 reportWebVitals.js      # Performance metrics
+├── 📦 package.json                # Project dependencies and scripts
+├── 🔒 package-lock.json           # Dependency lock file
+├── 📋 README.md                   # This file
+└── 🙈 .gitignore                  # Git ignore rules
 ```
 
-## ✨ Özellikler
+## ✨ Features
 
-### 🎨 **Modern Tasarım**
-- 🌌 **Yıldızlı Animasyonlar** - Uzay temasını yansıtan arka plan
-- 💫 **Neon Efektleri** - Cyber/futuristik görünüm
-- 🔮 **Glassmorphism** - Şeffaf kartlar ve blur efektleri
-- 🎭 **Framer Motion Animasyonları** - Smooth geçişler ve etkileşimler
+### 🎨 **Modern Design**
+- 🌌 **Starry Animations** - Space-themed background
+- 💫 **Neon Effects** - Cyber/futuristic appearance
+- 🔮 **Glassmorphism** - Transparent cards and blur effects
+- 🎭 **Framer Motion Animations** - Smooth transitions and interactions
 
-### ⚡ **Freighter Entegrasyonu**
-- 🔗 **Otomatik Bağlantı Kontrolü** - Sayfa yüklendiğinde cüzdan durumu
-- 🚀 **Tek Tıkla Bağlama** - Kolay cüzdan bağlantısı
-- 💰 **Canlı Bakiye Görüntüleme** - XLM ve diğer tokenler
-- 📋 **Hesap Bilgileri** - Sequence, thresholds, subentry count
-- 📎 **Adres Kopyalama** - Tek tıkla clipboard'a kopyalama
-- 🌐 **Stellar Explorer** - Blockchain'de hesabı görüntüleme
+### ⚡ **Freighter Integration**
+- 🔗 **Auto-Connect Check** - Wallet status on page load
+- 🚀 **One-Click Connect** - Easy wallet connection
+- 💰 **Live Balance Display** - XLM and other tokens
+- 📋 **Account Info** - Sequence, thresholds, subentry count
+- 📎 **Address Copy** - One-click clipboard copy
+- 🌐 **Stellar Explorer** - View account on blockchain
 
-### 🔗 **Trustline Yönetimi**
-- ➕ **Yeni Trustline Ekleme** - Herhangi bir Stellar varlığı için trustline oluşturma
-- ⚠️ **AI Tabanlı Risk Analizi** - Varlık güvenliği hakkında uyarılar ve rehberlik
-- 📄 **İşlem İmzalama** - Freighter ile change_trust işlemlerini imzalama
-- 💡 **Eğitici Bilgiler** - Trustline'ların ne olduğu hakkında bilgilendirme
-- 🔍 **İşlem Takibi** - StellarExpert bağlantısı ile işlemleri izleme
+### 🔗 **Trustline Management**
+- ➕ **Add New Trustline** - Create trustlines for any Stellar asset
+- ⚠️ **AI-Based Risk Analysis** - Warnings and guidance about asset security
+- 📄 **Transaction Signing** - Sign change_trust transactions with Freighter
+- 💡 **Educational Tips** - Learn what trustlines are
+- 🔍 **Transaction Monitoring** - View operations on StellarExpert
 
-### 💱 **Asset Swap Özelliği**
-- 🔄 **Path Payment** - Stellar Decentralized Exchange üzerinden token swap işlemleri
-- 📊 **Otomatik Oran Bulma** - En iyi dönüşüm oranını otomatik bulma
-- 🛡️ **Slippage Koruması** - Minimum alış tutarı belirleme
-- 🤖 **AI Rehberliği** - Swap işlemleri ve slippage hakkında AI asistanı rehberliği
-- 📲 **Kolay Arayüz** - Basit ve kullanıcı dostu swap formu
+### 💱 **Asset Swap Feature**
+- 🔄 **Path Payment** - Token swap operations via Stellar Decentralized Exchange
+- 📊 **Auto Rate Discovery** - Automatically find the best conversion rate
+- 🛡️ **Slippage Protection** - Set minimum receive amount
+- 🤖 **AI Guidance** - AI assistant guidance on swap operations and slippage
+- 📲 **Easy Interface** - Simple and user-friendly swap form
 
 ### 🤖 **AI Chat Assistant**
-- 🔍 **Varlık Bilgileri** - Herhangi bir Stellar varlığı hakkında detaylı bilgi
-- 🚨 **Risk Tespiti** - Şüpheli varlıklar için otomatik uyarılar
-- 📊 **Market Verileri** - Fiyat ve arz bilgileri
-- 💬 **Doğal Dil İşleme** - Sorularınızı doğal dille sorabilme
-- 💡 **Swap ve Trustline Rehberliği** - İşlemler hakkında bilgilendirme ve rehberlik
+- 🔍 **Asset Information** - Detailed information about any Stellar asset
+- 🚨 **Risk Detection** - Automatic alerts for suspicious assets
+- 📊 **Market Data** - Price and supply information
+- 💬 **Natural Language Processing** - Ask questions in natural language
+- 💡 **Swap and Trustline Guidance** - Information and guidance about operations
 
-### 📱 **Responsive & Erişilebilir**
-- 📱 **Mobil Uyumlu** - Tüm cihazlarda mükemmel görünüm
-- ♿ **Erişilebilir** - ARIA etiketleri ve klavye navigasyonu
-- 🌍 **Çoklu Dil Desteği** - Türkçe arayüz
+### 📱 **Responsive & Accessible**
+- 📱 **Mobile Friendly** - Perfect view on all devices
+- ♿ **Accessible** - ARIA labels and keyboard navigation
+- 🌍 **Multi-language Support** - English interface
 
-## 🛠️ Teknoloji Stack
+## 🛠️ Technology Stack
 
-| Teknoloji | Versiyon | Açıklama |
-|-----------|----------|----------|
-| **React** | ^19.0.0 | Modern UI kütüphanesi |
-| **@stellar/stellar-sdk** | ^13.3.0 | Stellar blockchain entegrasyonu |
-| **@creit.tech/stellar-wallets-kit** | ^1.7.5 | Cüzdan bağlantı kiti |
-| **framer-motion** | ^12.18.1 | Premium animasyon kütüphanesi |
-| **lucide-react** | ^0.522.0 | Modern ikon seti |
-| **TypeScript** | ^5.0.0 | Backend için tip güvenliği |
+| Technology | Version | Description |
+|-----------|----------|-------------|
+| **React** | ^19.0.0 | Modern UI library |
+| **@stellar/stellar-sdk** | ^13.3.0 | Stellar blockchain integration |
+| **@creit.tech/stellar-wallets-kit** | ^1.7.5 | Wallet connection kit |
+| **framer-motion** | ^12.18.1 | Premium animation library |
+| **lucide-react** | ^0.522.0 | Modern icon set |
+| **TypeScript** | ^5.0.0 | Type safety for backend |
 | **ws** | ^8.13.0 | WebSocket server |
 
-## 🚀 Kurulum ve Çalıştırma
+## 🚀 Installation and Setup
 
-### Ön Gereksinimler
-- ✅ **Node.js** (v16 veya üzeri)
-- ✅ **npm** veya **yarn**
+### Prerequisites
+- ✅ **Node.js** (v16 or higher)
+- ✅ **npm** or **yarn**
 - ✅ **Freighter Browser Extension**
 
-### 1️⃣ Projeyi Klonlayın
+### 1️⃣ Clone the Project
 ```bash
 git clone <repository-url>
 cd stellar-wallet-app
 ```
 
-### 2️⃣ Bağımlılıkları Yükleyin
+### 2️⃣ Install Dependencies
 ```bash
 npm install
 cd daemon
@@ -122,163 +122,163 @@ npm install
 cd ..
 ```
 
-### 3️⃣ Backend ve Frontend'i Çalıştırın
+### 3️⃣ Run Backend and Frontend
 ```bash
-# Terminal 1: Backend için
+# Terminal 1: For backend
 cd daemon
 npm run dev
 
-# Terminal 2: Frontend için
+# Terminal 2: For frontend
 npm start
 ```
 
-### 4️⃣ Tarayıcıda Açın
-Frontend uygulaması otomatik olarak açılacak: [http://localhost:3000](http://localhost:3000)
+### 4️⃣ Open in Browser
+Frontend application will open automatically: [http://localhost:3000](http://localhost:3000)
 
-## 🎯 Kullanım
+## 🎯 Usage
 
-### Freighter Cüzdan Kurulumu
-1. **Chrome/Firefox** tarayıcınıza [Freighter](https://freighter.app/) eklentisini kurun
-2. Yeni cüzdan oluşturun veya mevcut cüzdanınızı import edin
-3. **Testnet** ağını seçin (uygulama testnet kullanıyor)
+### Freighter Wallet Setup
+1. Install [Freighter](https://freighter.app/) extension in **Chrome/Firefox**
+2. Create a new wallet or import your existing wallet
+3. Select **Testnet** network (app uses testnet)
 
-### Uygulama Kullanımı
-1. 🌐 Uygulamayı açın
-2. 🔗 **"Connect Wallet"** butonuna tıklayın
-3. ✅ Freighter popup'ında bağlantıyı onaylayın
-4. 👀 Cüzdan bilgilerinizi görüntüleyin
-5. ➕ **"Add Trustline"** butonuna tıklayarak yeni bir trustline ekleyin:
-   - Asset Code (örn. USDC) girin
-   - Asset Issuer adresini girin
-   - AI Assistant'in güvenlik değerlendirmesini görüntüleyin
-   - "Confirm" butonuna tıklayın ve Freighter'da imzalayın
-6. 🔄 **"Swap Assets"** butonuna tıklayarak varlık takası yapın:
-   - Göndermek istediğiniz varlığı seçin (örn. "USDC:GBBD47IF6LWK7P7MDEVSCWR7DPUWV3NY3DTQEVFL4NAT4AQH3ZLLFLA5" ya da XLM için "native")
-   - Göndermek istediğiniz miktarı girin
-   - Almak istediğiniz varlığı seçin (örn. "native" XLM için)
-   - Minimum alım miktarını belirleyin (slippage koruması için)
-   - AI Assistant'in slippage hakkındaki açıklamalarını okuyun
-   - "Confirm Swap" butonuna tıklayın ve Freighter'da işlemi onaylayın
-7. 💬 Sağ paneldeki chat alanından herhangi bir Stellar varlığı hakkında bilgi isteyin:
-   - "Tell me about XLM" gibi sorular sorun
-   - AI Assistant varlık hakkında detaylı bilgi verecektir
+### Application Usage
+1. 🌐 Open the application
+2. 🔗 Click **"Connect Wallet"** button
+3. ✅ Approve the connection in Freighter popup
+4. 👀 View your wallet information
+5. ➕ Click **"Add Trustline"** button to add a new trustline:
+   - Enter Asset Code (e.g., USDC)
+   - Enter Asset Issuer address
+   - View AI Assistant's security evaluation
+   - Click "Confirm" button and sign in Freighter
+6. 🔄 Click **"Swap Assets"** button to perform asset swap:
+   - Select the asset you want to send (e.g., "USDC:GBBD47IF6LWK7P7MDEVSCWR7DPUWV3NY3DTQEVFL4NAT4AQH3ZLLFLA5" or "native" for XLM)
+   - Enter the amount you want to send
+   - Select the asset you want to receive (e.g., "native" for XLM)
+   - Set minimum receive amount (for slippage protection)
+   - Read AI Assistant's explanations about slippage
+   - Click "Confirm Swap" button and approve the transaction in Freighter
+7. 💬 Ask about any Stellar asset from the chat area in the right panel:
+   - Ask questions like "Tell me about XLM"
+   - AI Assistant will provide detailed information about the asset
 
-## 🔧 Geliştirme
+## 🔧 Development
 
-### 📁 Önemli Dosyalar
-- **`src/App.js`** - Ana React bileşeni ve Freighter logic
-- **`src/App.css`** - Tüm CSS stilleri ve animasyonlar
-- **`daemon/src/skills/`** - AI Assistant becerileri
+### 📁 Important Files
+- **`src/App.js`** - Main React component and Freighter logic
+- **`src/App.css`** - All CSS styles and animations
+- **`daemon/src/skills/`** - AI Assistant skills
 - **`daemon/src/services/websocket.ts`** - WebSocket server
-- **`daemon/src/skills/guidance/`** - Trustline ve Swap rehberlikleri
+- **`daemon/src/skills/guidance/`** - Trustline and Swap guidance
 
-### 🎨 Tasarım Sistemi
+### 🎨 Design System
 ```css
-/* Renk Paleti */
---primary-blue: #00d4ff;      /* Ana mavi */
---secondary-blue: #0099cc;    /* İkincil mavi */
---success-green: #00ff88;     /* Başarı yeşili */
---warning-red: #ff3d00;       /* Uyarı kırmızısı */
---purple-accent: #7d2ae8;     /* Swap butonu için mor */
---dark-bg: #0a0a0a;          /* Koyu arka plan */
---glass-bg: rgba(255, 255, 255, 0.05); /* Cam efekti */
+/* Color Palette */
+--primary-blue: #00d4ff;      /* Primary blue */
+--secondary-blue: #0099cc;    /* Secondary blue */
+--success-green: #00ff88;     /* Success green */
+--warning-red: #ff3d00;       /* Warning red */
+--purple-accent: #7d2ae8;     /* Purple for swap button */
+--dark-bg: #0a0a0a;          /* Dark background */
+--glass-bg: rgba(255, 255, 255, 0.05); /* Glass effect */
 
-/* Tipografi */
+/* Typography */
 --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 --font-mono: 'Courier New', monospace;
 ```
 
-### 🔄 Build Scripları
+### 🔄 Build Scripts
 ```bash
-# Backend ve frontend geliştirme
+# Backend and frontend development
 npm run dev:all
 
-# Sadece backend
+# Backend only
 cd daemon && npm run dev
 
-# Sadece frontend
+# Frontend only
 npm start
 
 # Production build
 npm run build
 ```
 
-## 🌍 Network Ayarları
+## 🌍 Network Configuration
 
-Uygulama şu anda **Stellar Testnet** kullanıyor:
+Application currently uses **Stellar Testnet**:
 - **Horizon URL**: `https://horizon-testnet.stellar.org`
 - **Network Passphrase**: `Test SDF Network ; September 2015`
 
-### Mainnet'e Geçiş
-`src/App.js` dosyasında:
+### Switching to Mainnet
+In `src/App.js` file:
 ```javascript
-// Testnet (mevcut)
+// Testnet (current)
 const server = new StellarSdk.Server('https://horizon-testnet.stellar.org');
 
-// Mainnet için
+// For Mainnet
 const server = new StellarSdk.Server('https://horizon.stellar.org');
 ```
 
-## 🔮 Gelecek Özellikler
+## 🔮 Future Features
 
-- [x] 💸 **Trustline Ekleme** - Herhangi bir Stellar varlığı için trustline oluşturma
-- [x] 🤖 **AI Chat Assistant** - Varlıklar hakkında bilgi almak için AI asistanı
-- [x] 🔄 **Asset Swap** - Varlıklar arası takas işlemi (PathPayment kullanarak)
-- [ ] 💸 **İşlem Gönderme** - XLM ve token transferi
-- [ ] 📈 **İşlem Geçmişi** - Hesap aktivitelerini görüntüleme
-- [ ] 🖼️ **NFT Desteği** - Stellar NFT'lerini gösterme
-- [ ] 🔄 **DeFi Entegrasyonu** - Stellar DEX işlemleri
-- [ ] ✍️ **Multi-signature** - Çoklu imza desteği
-- [ ] 🌓 **Dark/Light Mode** - Tema değiştirici
-- [ ] 🔔 **Bildirimler** - İşlem durumu bildirimleri
+- [x] 💸 **Add Trustline** - Create trustlines for any Stellar asset
+- [x] 🤖 **AI Chat Assistant** - AI assistant to get information about assets
+- [x] 🔄 **Asset Swap** - Asset exchange operations (using PathPayment)
+- [ ] 💸 **Send Transaction** - XLM and token transfers
+- [ ] 📈 **Transaction History** - View account activities
+- [ ] 🖼️ **NFT Support** - Display Stellar NFTs
+- [ ] 🔄 **DeFi Integration** - Stellar DEX operations
+- [ ] ✍️ **Multi-signature** - Multi-signature support
+- [ ] 🌓 **Dark/Light Mode** - Theme switcher
+- [ ] 🔔 **Notifications** - Transaction status notifications
 
-## 🤝 Katkıda Bulunma
+## 🤝 Contributing
 
-1. Fork yapın
-2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Commit yapın (`git commit -m 'Add amazing feature'`)
-4. Push yapın (`git push origin feature/amazing-feature`)
-5. Pull Request açın
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## 📄 Lisans
+## 📄 License
 
-Bu proje MIT lisansı altında lisanslanmıştır.
+This project is licensed under the MIT License.
 
-## 🆘 Sorun Giderme
+## 🆘 Troubleshooting
 
-### Yaygın Problemler
+### Common Issues
 
-**❌ Freighter bağlanmıyor**
-- Freighter eklentisinin yüklü ve aktif olduğundan emin olun
-- Tarayıcıyı yenileyin ve tekrar deneyin
+**❌ Freighter not connecting**
+- Make sure Freighter extension is installed and active
+- Refresh the browser and try again
 
-**❌ Hesap verileri yüklenmiyor**
-- Testnet hesabınızın aktif olduğundan emin olun
-- [Stellar Laboratory](https://laboratory.stellar.org/#account-creator?network=test) ile test hesabı oluşturun
+**❌ Account data not loading**
+- Make sure your Testnet account is active
+- Create a test account using [Stellar Laboratory](https://laboratory.stellar.org/#account-creator?network=test)
 
-**❌ Trustline eklenemiyor**
-- Asset Code ve Issuer'ın doğru olduğundan emin olun
-- Hesabınızda yeterli XLM bakiyesi olduğundan emin olun (0.5 XLM minimum)
-- Freighter'ın Testnet'e ayarlı olduğunu kontrol edin
+**❌ Cannot add trustline**
+- Make sure Asset Code and Issuer are correct
+- Ensure you have sufficient XLM balance in your account (0.5 XLM minimum)
+- Check that Freighter is set to Testnet
 
-**❌ WebSocket bağlantı hatası**
-- Daemon serverın çalıştığından emin olun (Terminal 1'de)
-- WebSocket URL'nin doğru olduğunu kontrol edin (ws://127.0.0.1:8080)
+**❌ WebSocket connection error**
+- Make sure daemon server is running (Terminal 1)
+- Check that WebSocket URL is correct (ws://127.0.0.1:8080)
 
-**❌ Swap işlemi gerçekleşmiyor**
-- Asset formatlarını doğru girdiğinizden emin olun (native veya CODE:ISSUER formatında)
-- İlgili asset için trustline'ınızın olduğundan emin olun
-- Slippage değerini çok yüksek ayarlamadığınızdan emin olun
-- İşlem için yeterli bakiyeniz olduğunu kontrol edin
+**❌ Swap operation not working**
+- Make sure you enter asset formats correctly (native or CODE:ISSUER format)
+- Ensure you have trustline for the related asset
+- Make sure you don't set slippage value too high
+- Check that you have sufficient balance for the transaction
 
-**❌ Build hataları**
-- `node_modules` klasörünü silin ve `npm install` yapın
-- Node.js versiyonunu kontrol edin (v16+)
-- Stellar SDK import hatası için script tag'inin index.html'de olduğunu doğrulayın
+**❌ Build errors**
+- Delete `node_modules` folder and run `npm install`
+- Check Node.js version (v16+)
+- For Stellar SDK import errors, verify script tag is in index.html
 
 ---
 
-💫 **Stellar ağında modern cüzdan deneyimi için geliştirildi** 🚀
+💫 **Built for modern wallet experience on the Stellar network** 🚀
 
 # Stellar Wallet App with Smart Contract Integration
 
